@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #f6f5f1;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background: url('https://www.mithesports.com/wp-content/uploads/2015/09/CSGO.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+.welcome_text{
+    width: 400px;
+}
+.welcome_form input,
+.welcome_form button{
+    display: block;
+    width: 100%;
+}
+.welcome_form input{
+    color: #bbbfca;
+    text-align: center;
+    margin:18px 0 ;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #bbbfca;
+    font-size: 30px;
+    outline: none;
+    padding: 10px;
+}
+
+.welcome_form button{
+    padding: 15px 0;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin:15px auto;
+    cursor: pointer;
+    background-color: #bbbfcab4;
+    transition: all 0.4s ease ;
+}
+.welcome_form button:hover{
+    transform:translateY(-5px);
+    background-color: #b3b1b1;
+}
+
+.quiz{
+    
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+}
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #393e46e0;
+    border-top-left-radius: 7px;
+    border-top-right-radius:7px ;
+    box-shadow: 0px 2px 1px 1px #393e46;
+    z-index: 1;
+}
+.quiz_body{
+    padding:30px;
+    background-color: #222831e0;
+}
+
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.quiz_time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #ff8e71;
+    width: 130px;
+    font-size: 21px;
+}
+.option{
+    background-color: #393e46d8;
+    padding: 12px 20px;
+    margin-top: 13px;
+    border-radius: 10px;
+    width: 300px;
+    border:2px solid transparent;
+    list-style-type: none;
+}
+.option:hover{
+    cursor: pointer;
+    border:2px solid #495464;
+}
+
+.option_list{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+}
+img{
+    margin-top: 10px;
+}
+.next-btn{
+    background-color: #bbbfca;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.next-btn:hover{
+    background-color: #d2d3c9;
+}
+.active{
+    background-color: #ff7f5f;
+    color: white;
+}
+.fa-award{
+    font-size: 300px;
+}
+
+.container-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    width: 100vw;
+  min-height: 100vh;
+    background: url('https://www.mithesports.com/wp-content/uploads/2015/09/CSGO.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
